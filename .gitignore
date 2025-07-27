@@ -1,1 +1,55 @@
 
+## Build results
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+
+## ASP.NET temporary files
+**/App_Data/Logs/
+**/App_Data/cache/
+**/App_Data/temp/
+
+## Rider / VS Code / Visual Studio
+.vscode/
+.idea/
+*.code-workspace
+*.sln.ide
+*.ncrunchproject
+
+## Dependency directories
+packages/
+node_modules/
+
+## Configuration / Secrets
+*.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Logs and reports
+*.log
+TestResults/
+coverage/
+
+## Others
+_ReSharper*/
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.bak
+*.zip
+*.7z
+*.rar
+
+# JetBrains Rider
+.idea/
