@@ -1,3 +1,6 @@
+using SpendSmart.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace SpendSmart
 {
     public class Program
@@ -8,6 +11,9 @@ namespace SpendSmart
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<SpendSmartContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"))
+            );
 
             var app = builder.Build();
 
