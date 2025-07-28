@@ -10,3 +10,8 @@
   git clone https://github.com/Danamat07/SpendSmart.git
   cd SpendSmart
   ```
+---
+### Preview
+<img width="1366" height="392" alt="image" src="https://github.com/user-attachments/assets/860c8f6e-4c9b-44ce-9fd2-c2f87656c7c8" />
+
+<img width="1361" height="491" alt="image" src="https://github.com/user-attachments/assets/9048bacf-4822-4210-91ec-52746764f0f4" />
